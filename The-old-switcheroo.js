@@ -12,3 +12,6 @@ vowel2index('') == ''
 
 Your function should be case insensitive to the vowels.
 */
+
+
+// Solution
