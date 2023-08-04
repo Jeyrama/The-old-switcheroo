@@ -16,3 +16,6 @@ Your function should be case insensitive to the vowels.
 
 // Solution
 
+function vowel2index(str) {
+  return str.replace(/[aeiou]/ig, (m, i) => i + 1);
+}
