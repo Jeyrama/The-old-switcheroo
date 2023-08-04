@@ -21,3 +21,16 @@ function vowel2index(str) {
 }
 
 // or
+
+function vowel2index(str) {
+  var arr = str.split(''),
+      i = 0,
+      len = arr.length,
+      vowels = ['a','e','i','o','u'];
+  
+  for (i=0; i<len; i++) {
+    if ( vowels.indexOf(arr[i].toLowerCase()) > -1 ) arr[i] = i+1;
+  }
+  
+  return arr.join('');
+}
